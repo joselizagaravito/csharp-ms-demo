@@ -1,0 +1,32 @@
+# Archivos de compilación
+bin/
+obj/
+app.publish/
+
+# Archivos de paquetes y dependencias
+*.nupkg
+*.snupkg
+*.deps.json
+project.lock.json
+project.fragment.lock.json
+.nuget/
+
+# Configuraciones específicas de usuario y sistema
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración específicos de tu entorno
+launchSettings.json
+
+# Archivos de despliegue específicos
+docker-compose.*
+*.dockerignore
+.Dockerfile
+
+# Otros archivos generados
+*.log
+*.cache
